@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SwimmingCalculator</title>
+	<script src="JS.js" defer></script>
+	<link rel="stylesheet" href="CSS.css">
+	<link rel="icon" href="Images/ico.png" type="images/png">
+</head>
+<body>
+
+<div id="square1">
+	<p><center id="SwCalc">SwimmingCalculator</center></p>
+<center>
+<select id="distance">
+    <option value="hide">-- Дистанция --</option>
+    <option value="50">50м</option>
+    <option value="100">100м</option>
+    <option value="200">200м</option>
+    <option value="400">400м</option>
+    <option value="800">800м</option>
+    <option value="1500">1500м</option>
+</select> 
+
+<select id="Lines">
+    <option value="hide">-- Отрезок --</option>
+    <option value="25">25м</option>
+    <option value="50">50м</option>
+    <option value="100">100м</option>
+    <input type="text" id="hour">
+	<span>h</span>
+	<input type="text" id="minute">
+	<span>m</span>
+    <input type="text" id="second">
+	<span>s</span>
+    <input type="text" id="millisecond">
+	<span>ms</span>
+	<br>
+		<button onclick="Play()">Продолжить</button>
+
+	<div id="square2">
+		<p id="out"></p>	
+	</div>
+</select>
+</center>
+</div>
+</body>
+</html>
