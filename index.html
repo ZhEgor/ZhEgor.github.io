@@ -5,7 +5,7 @@
 	<title>SwimmingCalculator</title>
 	<script src="JS.js" defer></script>
 	<link rel="stylesheet" href="CSS.css">
-	<link rel="icon" href="ico.png" type="images/png">
+	<link rel="icon" href="Images/ico.png" type="images/png">
 </head>
 <body>
 
@@ -20,6 +20,8 @@
     <option value="400">400м</option>
     <option value="800">800м</option>
     <option value="1500">1500м</option>
+    <option value="3000">3000м</option>
+
 </select> 
 
 <select id="Lines">
@@ -28,21 +30,26 @@
     <option value="50">50м</option>
     <option value="100">100м</option>
     <input type="text" id="hour">
-	<span>h</span>
+	<span id="span">ч</span>
 	<input type="text" id="minute">
-	<span>m</span>
+	<span id="span">м</span>
     <input type="text" id="second">
-	<span>s</span>
+	<span id="span">с</span>
     <input type="text" id="millisecond">
-	<span>ms</span>
+	<span id="span">мс</span>
 	<br>
-		<button onclick="Play()">Продолжить</button>
+	</select>
 
+	</center>
+
+		<button onclick="Play()">Продолжить</button>
+		<textarea name="out" id="out" cols="83" rows="20"></textarea>
+<!--
 	<div id="square2">
-		<p id="out"></p>	
+		<span id="out"></span>	
+		<span id="out1"></span>	
 	</div>
-</select>
-</center>
+-->
 </div>
 </body>
 </html>
