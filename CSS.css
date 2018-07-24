@@ -47,6 +47,8 @@ input{
 #square1{
 	height: 550px;
 	width:1000px ;
+	margin-left: 20%;
+	margin-right: 20%;
 /*	background: rgba(42,46,75,0.3);*/
 	background: rgb(74,78,80);
 	border-radius: 30px;
